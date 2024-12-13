@@ -11,6 +11,8 @@ const cron = require("node-cron");
 // Initialize the bot with polling
 const telegramToken = process.env.TELEGRAM_BOT_TOKEN;
 
+console.log("BOT IS RUNNING");
+
 if (!telegramToken) {
     console.error("Telegram bot token is not set in the environment variables.");
     process.exit(1);
