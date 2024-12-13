@@ -1,0 +1,10 @@
+- .env
+- package.json
+- project_structure.text
+- src
+  - condition-checker.js
+  - config.js
+  - data-fetcher.js
+  - index.js
+  - indicator-calculator.js
+- yarn.lock
